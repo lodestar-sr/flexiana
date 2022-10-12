@@ -1,0 +1,24 @@
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper label {
+    color: #45484b;
+    font-size: 1rem;
+    margin: 0 1rem 0 0;
+}
+
+.input-wrapper input {
+    width: 100%;
+    border: 1px solid #959ca2;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    outline: none;
+    transition: all ease-in-out 0.2s;
+}
+.input-wrapper input:focus {
+    border-color: #45484b;
+    box-shadow: 0 0 8px #0002;
+}

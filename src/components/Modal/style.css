@@ -1,0 +1,48 @@
+.modal-wrapper {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-wrapper .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #0008;
+}
+
+.modal-wrapper .modal {
+    width: 30rem;
+    max-width: 90vw;
+    position: relative;
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0004;
+}
+
+.modal-wrapper .modal .modal-header {
+    padding-bottom: 1em;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.modal-wrapper .modal .modal-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-wrapper .modal .close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
